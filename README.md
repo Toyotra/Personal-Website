@@ -1,3 +1,3 @@
 # Personal website
 <br>
-<p>I made my personal website in Svelte and TailwindCSS with Javascript</p>
+<p>I made my personal website with Svelte, TailwindCSS, and Javascript</p>
