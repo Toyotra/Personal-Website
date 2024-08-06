@@ -16,13 +16,17 @@ html{
     padding-left:1.5rem;
     font-size:large;
     font-weight:600;
-    background-color:blue;
+    background-image: linear-gradient(rgb(56, 0, 145), rgb(35, 31, 36));
     transition-duration: 0.3s;
     height:fit-content;
     margin-left:0.1rem;
     margin-right:0.1rem;
+    border-radius:0.8rem;
 }
 
 .nav-button:hover{
-    background-color:blueviolet;
+    opacity:0.8;
+    padding: 0.9rem;
+    padding-right:1.2rem;
+    padding-left:1.2rem;
 }
