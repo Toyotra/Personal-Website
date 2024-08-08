@@ -19,8 +19,9 @@
 
     <div id="nav-button-group" class="ml-auto">
         <button class="nav-button">About Me</button>
-        <button class="nav-button">Resume</button>
+        <button class="nav-button">Photo Gallery</button>
         <button class="nav-button">Projects</button>
+        <button class="nav-button">Resume</button>       
         <button class="nav-button">Contacts</button>
     </div>
 
