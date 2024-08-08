@@ -34,8 +34,10 @@
 <div class="flex justify-evenly items-center">
     <img id = "portfolio-shake" src = "assets/Images/portfolio photo.svg" alt = "portfolio photo" >
     <div class="w-1/2">
+        <img alt = "guitar" src="assets/Images/guitar.svg" width="200" class="ml-auto filter invert">
         <div class="w-1/2">
             <div class="inline-block">
+                
                 <h2 class = "group font-semibold text-3xl transistion duration:300" >
                     About Me
                     <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
@@ -76,8 +78,8 @@
 <br>
 <br>
 
-<div class="ml-auto mr-auto flex justify-center">
-    <h1 class="group text-center font-semibold text-3xl transition duration-200 inline-block">
+<div class="flex justify-center">
+    <h1 class=" ml-auto mr-auto  group text-center font-semibold text-3xl transition duration-200 inline-block">
         Photo Gallery!
         <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
     </h1>
@@ -114,6 +116,7 @@
 <br>
 
 <div class="flex justify-center">
+    <img src="assets/Images/boombox.svg" alt="boombox" width="100" class="-rotate-45 mr-auto opacity-70 ml-40">
     <div class="inline-block">
         <h2 class = "group font-semibold text-3xl transistion duration:300">
             Projects
@@ -121,6 +124,7 @@
         </h2>
         
     </div>
+    <img src="assets/Images/boombox.svg" alt="boombox" width="100" class="rotate-45 ml-auto opacity-70 mr-40">
 </div>
 
 <br><br>
