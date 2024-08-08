@@ -18,25 +18,25 @@
     </div>
 
     <div id="nav-button-group" class="ml-auto">
-        <button class="nav-button">About Me</button>
-        <button class="nav-button">Photo Gallery</button>
-        <button class="nav-button">Projects</button>
-        <button class="nav-button">Resume</button>       
-        <button class="nav-button">Contacts</button>
+        <a href="#about-me"><button class="nav-button" >About Me</button></a>
+        <a href="#photo-gallery"><button class="nav-button" >Photo Gallery</button></a>
+        <a href="#projects"><button class="nav-button" >Projects</button></a>
+        <a href="#resume"><button class="nav-button" >Resume</button></a>      
+        <a href="#contacts"><button class="nav-button" >Contacts</button></a>
     </div>
 
 </div>
 <br>
 <br>
-<br>
+<br id="about-me">
 <br>
 
 <div class="flex justify-evenly items-center">
-    <img id = "portfolio-shake" src = "assets/Images/portfolio photo.svg" alt = "portfolio photo">
+    <img id = "portfolio-shake" src = "assets/Images/portfolio photo.svg" alt = "portfolio photo" >
     <div class="w-1/2">
         <div class="w-1/2">
             <div class="inline-block">
-                <h2 class = "group font-semibold text-3xl transistion duration:300">
+                <h2 class = "group font-semibold text-3xl transistion duration:300" >
                     About Me
                     <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
                 </h2>
@@ -72,7 +72,7 @@
 <br>
 <br>
 <br>
-<br>
+<br id="photo-gallery">
 <br>
 <br>
 
@@ -109,7 +109,7 @@
 <br>
 
 <br>
-<br>
+<br id="projects">
 <br>
 <br>
 
@@ -220,7 +220,7 @@
 
 <br>
 <br>
-<br>
+<br id="resume">
 <br>
 
 <div class="ml-auto mr-auto flex justify-center">
@@ -242,7 +242,7 @@
 
 <br>
 <br>
-<br>
+<br id="contacts">
 <br>
 
 
