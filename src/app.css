@@ -22,6 +22,7 @@ html{
     margin-left:0.1rem;
     margin-right:0.1rem;
     border-radius:0.8rem;
+    z-index: 1;
 }
 
 .nav-button:hover{
@@ -45,6 +46,7 @@ html{
     /* When the animation is finished, start again */
     animation-iteration-count: infinite;
     width:500px;
+    z-index:0;
   }
   
 @keyframes shake {
@@ -78,4 +80,50 @@ html{
     width:600px;
     margin: 10px;
     border-radius:10px;
+}
+
+
+.project-container{
+
+    display:inline-block;
+    background-color:rgb(8 47 73);
+    border-radius:1.5rem;
+    border-width:0.5rem;
+    transition-duration:0.3s;
+    position: relative;
+    white-space: normal;
+    height: fit-content;
+    margin: 20px;
+}
+
+.project-container:hover{
+
+    opacity:0.5;
+    border-width:1rem;
+    padding:4px;
+    max-height: none;
+    height: fit-content;
+}
+
+.pop-up-text{
+    margin:6px;
+    bottom: 100%;
+    text-align:center;
+    visibility: hidden;
+    opacity:0;
+    transition-duration:0.3s;
+    height: 0;
+    transition: height 0.3s ease, opacity 0.3s ease;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width:600px;
+
+}
+
+.project-container:hover .pop-up-text{   
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
