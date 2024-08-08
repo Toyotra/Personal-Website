@@ -116,15 +116,16 @@
 <br>
 
 <div class="flex justify-center">
-    <img src="assets/Images/boombox.svg" alt="boombox" width="100" class="-rotate-45 mr-auto opacity-70 ml-40">
-    <div class="inline-block">
+    <img src="assets/Images/boombox.svg" alt="boombox" class="-rotate-45  mr-auto opacity-70 ml-40 transition-all w-28 hover:w-36 hover:shadow-lg duration-500">
+    
+    <div class="inline-block mr-auto ml-auto">
         <h2 class = "group font-semibold text-3xl transistion duration:300">
             Projects
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
         </h2>
         
     </div>
-    <img src="assets/Images/boombox.svg" alt="boombox" width="100" class="rotate-45 ml-auto opacity-70 mr-40">
+    <img src="assets/Images/boombox.svg" alt="boombox"  class="rotate-45  ml-auto opacity-70 mr-40 transition-all w-28 hover:w-36 hover:shadow-lg duration-500">
 </div>
 
 <br><br>
@@ -225,6 +226,7 @@
 <br>
 <br>
 <br id="resume">
+
 <br>
 
 <div class="ml-auto mr-auto flex justify-center">
